@@ -1,6 +1,6 @@
 # HenryLab-XR
 
-**HenryLab-XR** 是香港浸会大学（Hong Kong Baptist University, HKBU）HenryLab 旗下关注 **Extended Reality (XR) Software Engineering** 的研究小组。我们主要研究 VR / AR / MR 应用中的软件可靠性、自动化测试、性能缺陷修复、安全与隐私，以及大语言模型在 XR 软件工程中的应用。
+**HenryLab-XR** 是香港浸会大学（Hong Kong Baptist University, HKBU）HenryLab-HKBU 和中山大学（Sun Yat-sen University, SYSU） 旗下关注 **Extended Reality (XR) Software Engineering** 的研究小组。我们主要研究 VR / AR / MR 应用中的软件可靠性、自动化测试、性能缺陷修复、安全与隐私，以及大语言模型在 XR 软件工程中的应用。
 
 我们欢迎对 **XR 软件工程、AI for Software Engineering、软件测试、程序分析、自动化修复、Unity/VR 应用可靠性、安全与隐私** 感兴趣的同学加入。研究组长期招收 **PhD students / Research Assistants (RA)**。如果你对相关方向感兴趣，欢迎发送邮件至：**tsingpig@163.com**
 
