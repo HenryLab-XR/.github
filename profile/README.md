@@ -12,7 +12,7 @@
 
 [Hong-Ning Dai](https://www.henrylab.net/) 现任香港浸会大学计算机科学系（Department of Computer Science, Hong Kong Baptist University）副教授。他长期从事 Internet of Things、Blockchain、Big Data Analytics、Cyber-Physical Systems、Extended Reality 以及智能软件系统相关研究。
 
-根据个人主页与 Google Scholar 信息，Dr. Dai 已发表超过 **200 篇** 经过同行评审的论文，论文发表于 IEEE Communications Surveys & Tutorials、Proceedings of the IEEE、ACM Computing Surveys、IEEE JSAC、IEEE INFOCOM、IEEE TKDE、IEEE TII、IEEE TSE、IEEE/ACM ICSE、IEEE/ACM ASE 等高水平期刊和会议。他拥有 **7 篇 ESI Highly Cited Papers**，并入选 Stanford University 发布的全球前 2% 科学家榜单。Google Scholar 总引用次数超过 **29,000**，h-index 为 **59**。
+论文发表于 IEEE Communications Surveys & Tutorials、Proceedings of the IEEE、ACM Computing Surveys、IEEE JSAC、IEEE INFOCOM、IEEE TKDE、IEEE TII、IEEE TSE、IEEE/ACM ICSE、IEEE/ACM ASE 等高水平期刊和会议。他拥有 **7 篇 ESI Highly Cited Papers**，并入选 Stanford University 发布的全球前 2% 科学家榜单。Google Scholar 总引用次数超过 **29,000**，h-index 为 **59**。
 
 - Homepage: [https://www.henrylab.net/](https://www.henrylab.net/)
 - Google Scholar: [Hong-Ning Dai](https://scholar.google.com/citations?hl=en&user=20aqGSoAAAAJ)
