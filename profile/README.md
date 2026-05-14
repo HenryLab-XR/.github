@@ -29,9 +29,7 @@
   *IEEE/ACM International Conference on Software Engineering (ICSE), 2026.*  
   `[CCF-A]`
 
-- [**Principles and Practices of Large-Scale Code Analysis at Ant Group: A Data- and Logic-Oriented Approach**](https://henrykwokkk.github.io/)  
-  Xiaoheng Xie, Gang Fan, Xiaojun Lin, Ang Zhou, Shijie Li, Xunjin Zheng, Yinan Liang, Yu Zhang, Na Yu, Haokun Li, Xinyu Chen, Yingzhuang Chen, Yi Zhen, Dejun Dong, Xianjin Fu, Jinzhou Su, Fuxiong Pan, Pengshuai Luo, Youzheng Feng, Ruoxiang Hu, Hanyang Guo, Jing Fan, Xiao Xiao, Peng Di.  
-  *IEEE/ACM International Conference on Software Engineering: Software Engineering in Practice (ICSE-SEIP), 2026.*
+
 
 ### 2025
 
@@ -59,10 +57,7 @@
   `[CCF-A]`  
   Code: [Henrykwokkk/Meta-detector](https://github.com/Henrykwokkk/Meta-detector)
 
-- [**Coupled-Space Attacks Against Random-Walk-based Anomaly Detection**](https://dl.acm.org/doi/10.1109/TIFS.2024.3465026)  
-  Y. Lai, M. Waniek, L. Li, J. Wu, Y. Zhu, T. P. Michalak, K. Zhou.  
-  *IEEE Transactions on Information Forensics and Security (TIFS), 2024.*  
-  `[CCF-A]`
+
 
 ---
 
