@@ -21,7 +21,7 @@
 
 
 ## 近年代表性论文
-<img src="/src/pub2.png" alt="paper roadmap" width="400">
+<img src="/src/pub2.png" alt="paper roadmap" height="500">
 
 ### 2026
 
