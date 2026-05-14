@@ -21,7 +21,8 @@
 
 
 ## 近年代表性论文
-![alt text](/src/pub2.png)
+<img src="/src/pub2.png" alt="paper roadmap" width="400">
+
 ### 2026
 
 - [**XRFix: Exploring Performance Bug Repair of Extended Reality Applications with Large Language Models**](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/78/XRFix-Exploring-Performance-Bug-Repair-of-Extended-Reality-Applications-with-Large-L)  
