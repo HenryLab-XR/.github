@@ -95,6 +95,12 @@ Researcher at Ant Group; Ph.D. from Sun Yat-sen University.
 Research interests: AI for Software Engineering, Software Reliability, VR/AR Systems.  
 Homepage: [https://henrykwokkk.github.io/](https://henrykwokkk.github.io/)
 
+### Fengliang He
+
+Ph.D. Student in Computer Science, Hong Kong Baptist University.  
+Research interests: AR/VR systems, mobile computing and wireless networking.
+Homepage: [https://fengliang2023.github.io/](https://fengliang2023.github.io/)
+
 ### Jingwen Wu
 
 Ph.D. Student in Software Engineering, Hong Kong Baptist University.  
