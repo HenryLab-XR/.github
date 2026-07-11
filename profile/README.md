@@ -1,124 +1,139 @@
 # HenryLab-XR
 
-**HenryLab-XR** 是香港浸会大学（Hong Kong Baptist University, HKBU）HenryLab-HKBU 和中山大学（Sun Yat-sen University, SYSU） 旗下关注 **Extended Reality (XR) Software Engineering** 的研究小组。我们主要研究 VR / AR / MR 应用中的软件可靠性、自动化测试、性能缺陷修复、安全与隐私，以及大语言模型在 XR 软件工程中的应用。
+**Engineering Reliable, Secure, and Intelligent XR Systems.**
 
-我们欢迎对 **XR 软件工程、AI for Software Engineering、软件测试、程序分析、自动化修复、XR 应用可靠性、安全与隐私、具身智能** 感兴趣的同学加入。研究组长期招收 **PhD students / Research Assistants (RA)**。如果你对相关方向感兴趣，欢迎发送邮件至：**tsingpig@163.com**
+HenryLab-XR is a research group working at the intersection of extended reality and software engineering. We develop methods, tools, and open artifacts to make XR systems more reliable, secure, and intelligent—from automated testing and program repair to privacy analysis and emerging embodied AI.
+
+Our group brings together researchers affiliated with Hong Kong Baptist University, Sun Yat-sen University, and industry research teams.
+
+[Research](#research-themes) · [Featured Work](#featured-work) · [Publications](#selected-publications) · [People](#people) · [Join Us](#join-us)
 
 ---
 
-## 导师介绍
+## Research Themes
 
-### Prof. / Dr. Hong-Ning Dai
+### XR Reliability & Testing
 
-[Hong-Ning Dai](https://www.henrylab.net/) 现任香港浸会大学计算机科学系（Department of Computer Science, Hong Kong Baptist University）副教授。他长期从事 Internet of Things、Blockchain、Big Data Analytics、Cyber-Physical Systems、Extended Reality 以及智能软件系统相关研究。
+Automated scene exploration, interaction testing, performance analysis, and reproducible evaluation for VR, AR, and MR applications.
 
-论文发表于 IEEE Communications Surveys & Tutorials、Proceedings of the IEEE、ACM Computing Surveys、IEEE JSAC、IEEE INFOCOM、IEEE TKDE、IEEE TII、IEEE TSE、IEEE/ACM ICSE、IEEE/ACM ASE 等高水平期刊和会议。他拥有 **7 篇 ESI Highly Cited Papers**，并入选 Stanford University 发布的全球前 2% 科学家榜单。Google Scholar 总引用次数超过 **29,000**，h-index 为 **59**。
+### XR Software Engineering
 
-- Homepage: [https://www.henrylab.net/](https://www.henrylab.net/)
-- Google Scholar: [Hong-Ning Dai](https://scholar.google.com/citations?hl=en&user=20aqGSoAAAAJ)
-- HKBU CS: [Department of Computer Science, HKBU](https://www.comp.hkbu.edu.hk/)
+Program analysis, LLM-assisted testing and repair, and developer tools for building and maintaining complex immersive software.
 
+### XR Security & Privacy
 
+Security testing, privacy-risk analysis, side-channel studies, and ecosystem-scale measurement of XR applications and platforms.
 
-## 近年代表性论文
-<img src="/src/pub2.png" alt="paper roadmap" height="700">
+### Embodied AI — Emerging Direction
+
+We are exploring how embodied agents can perceive, reason, and act in interactive 3D environments, with an emphasis on evaluation, robustness, safety, and dependable behavior.
+
+Our work draws on model-based testing, program analysis, empirical studies, and large language models across these themes.
+
+---
+
+## Featured Work
+
+### [VRExplorer](https://github.com/HenryLab-XR/VRExplorer) — Model-based VR Testing
+
+A model-based approach for semi-automated exploration and testing of virtual reality scenes.
+
+**ASE 2025** · [Paper](https://doi.org/10.1109/ASE63991.2025.00047) · [Code](https://github.com/HenryLab-XR/VRExplorer)
+
+### [XRFix](https://github.com/wwwjwww/XRFix) — LLM-assisted Performance Bug Repair
+
+A study and repair workflow for performance bugs in XR applications using large language models.
+
+**ICSE 2026** · [Paper](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/78/XRFix-Exploring-Performance-Bug-Repair-of-Extended-Reality-Applications-with-Large-L) · [Artifact](https://github.com/wwwjwww/XRFix)
+
+### [Meta-detector](https://github.com/Henrykwokkk/Meta-detector) — Security & Privacy Analysis
+
+Empirical analysis and detection tools for security and privacy risks in the Meta/Oculus VR ecosystem.
+
+**ICSE 2024 · TSE 2025** · [ICSE Paper](https://doi.org/10.1145/3597503.3639082) · [TSE Paper](https://doi.org/10.1109/TSE.2025.3553283) · [Code](https://github.com/Henrykwokkk/Meta-detector)
+
+### [VRAgent](https://github.com/HenryLab-XR/VRAgent) — Automated VR Testing Prototype
+
+An open-source research prototype combining Unity scene and dependency analysis, LLM-generated test plans, and automated execution for VR applications.
+
+**Research Prototype** · [Code](https://github.com/HenryLab-XR/VRAgent)
+
+---
+
+## Selected Publications
 
 ### 2026
 
-- [**XRFix: Exploring Performance Bug Repair of Extended Reality Applications with Large Language Models**](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/78/XRFix-Exploring-Performance-Bug-Repair-of-Extended-Reality-Applications-with-Large-L)  
-  Jingwen Wu, Hanyang Guo, Hong-Ning Dai, Xiapu Luo.  
-  *IEEE/ACM International Conference on Software Engineering (ICSE), 2026.*  
-  `[CCF-A]`
-
-
+- **XRFix: Exploring Performance Bug Repair of Extended Reality Applications with Large Language Models.** Jingwen Wu, Hanyang Guo, Hong-Ning Dai, and Xiapu Luo. *IEEE/ACM International Conference on Software Engineering (ICSE), 2026.* [Paper](https://conf.researchr.org/details/icse-2026/icse-2026-research-track/78/XRFix-Exploring-Performance-Bug-Repair-of-Extended-Reality-Applications-with-Large-L) · [Artifact](https://github.com/wwwjwww/XRFix)
 
 ### 2025
 
-- [**VRExplorer: A Model-based Approach for Semi-Automated Testing of Virtual Reality Scenes**](https://www.comp.hkbu.edu.hk/~henrydai/pubs/VRExplorer_ASE25.pdf)  
-  Zhengyang Zhu, Hong-Ning Dai, Hanyang Guo, Zeqin Liao, Zibin Zheng.  
-  *IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025.*  
-  `[CCF-A]`  
-  Code: [TsingPig/VRExplorer](https://github.com/TsingPig/VRExplorer)
-
-- [**An Empirical Study on Meta Virtual Reality Applications: Security and Privacy Perspectives**](https://www.computer.org/csdl/journal/ts/2025/05/10934745/25d5dz7nZNm)  
-  Hanyang Guo, Hong-Ning Dai, Xiapu Luo, Gengyang Xu, Fengliang He, Zibin Zheng.  
-  *IEEE Transactions on Software Engineering (TSE), 2025.*  
-  `[CCF-A]`
-
-- [**AcouListener: An Inaudible Acoustic Side-channel Attack on AR/VR**](https://link.springer.com/chapter/10.1007/978-3-032-07894-0_9)  
-  Fengliang He, Hong-Ning Dai, Hanyang Guo, Xiapu Luo, Jiadi Yu.  
-  *European Symposium on Research in Computer Security (ESORICS), 2025.*  
-  `[CCF-B]`
+- **VRExplorer: A Model-based Approach for Semi-Automated Testing of Virtual Reality Scenes.** Zhengyang Zhu, Hong-Ning Dai, Hanyang Guo, Zeqin Liao, and Zibin Zheng. *IEEE/ACM International Conference on Automated Software Engineering (ASE), 2025.* [Paper](https://doi.org/10.1109/ASE63991.2025.00047) · [Code](https://github.com/HenryLab-XR/VRExplorer)
+- **An Empirical Study on Meta Virtual Reality Applications: Security and Privacy Perspectives.** Hanyang Guo, Hong-Ning Dai, Xiapu Luo, Gengyang Xu, Fengliang He, and Zibin Zheng. *IEEE Transactions on Software Engineering (TSE), 2025.* [Paper](https://doi.org/10.1109/TSE.2025.3553283)
+- **AcouListener: An Inaudible Acoustic Side-Channel Attack on AR/VR Systems.** Fengliang He, Hong-Ning Dai, Hanyang Guo, Xiapu Luo, and Jiadi Yu. *European Symposium on Research in Computer Security (ESORICS), 2025.* [Paper](https://doi.org/10.1007/978-3-032-07894-0_9) · [Artifact](https://github.com/adhakdh/AcouListener)
 
 ### 2024
 
-- [**An Empirical Study on Oculus Virtual Reality Applications: Security and Privacy Perspectives**](https://dl.acm.org/doi/10.1145/3597503.3639082)  
-  Hanyang Guo, Hong-Ning Dai, Xiapu Luo, Zibin Zheng, Gengyang Xu, Fengliang He.  
-  *IEEE/ACM International Conference on Software Engineering (ICSE), 2024.*  
-  `[CCF-A]`  
-  Code: [Henrykwokkk/Meta-detector](https://github.com/Henrykwokkk/Meta-detector)
-
-
+- **An Empirical Study on Oculus Virtual Reality Applications: Security and Privacy Perspectives.** Hanyang Guo, Hong-Ning Dai, Xiapu Luo, Zibin Zheng, Gengyang Xu, and Fengliang He. *IEEE/ACM International Conference on Software Engineering (ICSE), 2024.* [Paper](https://doi.org/10.1145/3597503.3639082) · [Code](https://github.com/Henrykwokkk/Meta-detector)
 
 ---
 
-## 招生方向
+## People
 
-我们欢迎具有以下背景或兴趣的同学联系：
+### Faculty Lead
 
-- 对 XR 软件系统和具身智能（Embodied Intelligence）感兴趣；
-- 熟悉或愿意学习 Unity、C#、Android、XR SDK、静态分析或动态测试；
-- 对软件工程顶会方向感兴趣，例如 ICSE、FSE、ASE、ISSTA、TOSEM、TSE；
-- 对大语言模型在软件工程中的应用感兴趣，包括 LLM-based testing、repair、agent、program analysis；
-- 对 XR 安全与隐私、移动应用安全、侧信道攻击、真实系统分析感兴趣；
-- 具有较强工程实现能力，愿意做真实系统、真实数据集和可复现实验。
+#### Hong-Ning Dai
 
-当前重点方向包括：
+Associate Professor, Department of Computer Science, Hong Kong Baptist University. His research spans extended reality, cyber-physical systems, the Internet of Things, and intelligent software systems.
 
-1. **XR Software Testing**：面向 VR / AR 应用的自动化测试、场景探索与覆盖率评估。  
-2. **LLM4XR**：基于大语言模型的 XR 软件缺陷检测、修复与测试生成。  
-3. **XR Security & Privacy**：面向 VR / AR 生态的安全漏洞、隐私泄露与侧信道风险分析。  
-4. **AI for Software Engineering**：大规模代码分析、自动程序修复、软件可靠性与智能开发工具。
+As of **11 July 2026**, his Google Scholar profile lists **30,667 citations**, an **h-index of 59**, and an **i10-index of 173**.
 
----
+[Faculty Page](https://www.comp.hkbu.edu.hk/v1/?id=henrydai&page=profile) · [Google Scholar](https://scholar.google.com/citations?user=20aqGSoAAAAJ&hl=en)
 
-## 成员与主页
+### Current Members
 
-### Hong-Ning Dai
+#### Hanyang Guo
 
-Associate Professor, Department of Computer Science, Hong Kong Baptist University.  
-Homepage: [https://www.henrylab.net/](https://www.henrylab.net/)
+Researcher at Ant Group; PhD from Sun Yat-sen University. Research interests: AI for software engineering, software reliability, and XR systems. [Homepage](https://henrykwokkk.github.io/)
 
-### Hanyang Guo
+#### Fengliang He
 
-Researcher at Ant Group; Ph.D. from Sun Yat-sen University.  
-Research interests: AI for Software Engineering, Software Reliability, VR/AR Systems.  
-Homepage: [https://henrykwokkk.github.io/](https://henrykwokkk.github.io/)
+PhD student at Hong Kong Baptist University. Research interests: AR/VR systems, mobile computing, and wireless networking. [Homepage](https://fengliang2023.github.io/)
 
-### Fengliang He
+#### Jingwen Wu
 
-Ph.D. Student in Computer Science, Hong Kong Baptist University.  
-Research interests: AR/VR systems, mobile computing and wireless networking.
-Homepage: [https://fengliang2023.github.io/](https://fengliang2023.github.io/)
+PhD student at Hong Kong Baptist University. Research interests: AI for software engineering, XR reliability, and AI security. [Homepage](https://wwwjwww.github.io/)
 
-### Jingwen Wu
+#### Zhengyang Zhu
 
-Ph.D. Student in Software Engineering, Hong Kong Baptist University.  
-Research interests: AI for Software Engineering, XR Reliability, AI Security.  
-Homepage: [https://wwwjwww.github.io/](https://wwwjwww.github.io/)
-
-### Zhengyang Zhu
-
-Ph.D. Student in Software Engineering, Sun Yat-sen University; visiting student at Hong Kong Baptist University.  
-Research interests: Virtual Reality, Software Reliability, LLM for Software Engineering, Embodied AI.  
-Homepage: [https://tsingpig.github.io/](https://tsingpig.github.io/)
+PhD student at Sun Yat-sen University and visiting student at Hong Kong Baptist University. Research interests: XR software testing, software reliability, LLMs for software engineering, and embodied AI. [Homepage](https://tsingpig.github.io/)
 
 ---
 
-## Contact
+## Join Us
 
-如果你对 HenryLab-XR 的研究方向、博士申请、RA 机会、科研合作或论文 artifact 感兴趣，欢迎联系：
+We are recruiting **PhD students, Research Assistants, and Visiting Students** who are excited about building dependable and intelligent immersive systems.
 
-**tsingpig@163.com**
+We welcome applicants interested in XR software engineering, reliability and testing, security and privacy, AI for software engineering, or emerging embodied AI. Experience with Unity/C#, Android, XR SDKs, program analysis, software testing, or systems research is helpful, but curiosity and strong implementation skills matter most.
 
-也可以通过上述成员主页了解更多研究内容。
+Please send the following materials:
+
+- Your CV
+- A brief introduction to your research interests
+- Academic transcripts
+- Links to representative papers, projects, or code
+- The position you are interested in and your preferred start date
+
+[Email your application](mailto:zhuzhy57@mail2.sysu.edu.cn?subject=Prospective%20PhD%20%2F%20RA%20%2F%20Visiting%20Student%20-%20%5BName%5D)
+
+---
+
+## Contact & Affiliations
+
+For research, collaboration, and recruitment inquiries, contact **Zhengyang Zhu** at [zhuzhy57@mail2.sysu.edu.cn](mailto:zhuzhy57@mail2.sysu.edu.cn).
+
+- [Department of Computer Science, Hong Kong Baptist University](https://www.comp.hkbu.edu.hk/)
+- [Sun Yat-sen University](https://www.sysu.edu.cn/sysuen/)
+- [HenryLab-XR on GitHub](https://github.com/HenryLab-XR)
+
+*Last updated: July 2026.*
