@@ -1,6 +1,6 @@
 # HenryLab-XR
 
-**Engineering Reliable, Secure, and Intelligent XR Systems.**
+**XR Reliability, Security, and Embodied AI.**
 
 HenryLab-XR is a research group focused on eXtended Reality (XR) systems, covering Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR). Our current research directions are **XR Reliability**, **XR Software Engineering**, and **XR Security**; our future direction is **Embodied AI**. We develop methods, tools, and open artifacts for dependable immersive software, from automated XR testing and program repair to security analysis and privacy-risk measurement.
 
