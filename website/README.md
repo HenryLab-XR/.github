@@ -20,6 +20,22 @@ npm run build
 npm test
 ```
 
+## GitHub Pages Deployment
+
+This site can be exported as static files for GitHub Pages:
+
+```bash
+GITHUB_PAGES=true npm run build:github-pages
+```
+
+The GitHub Actions workflow at `../.github/workflows/deploy-website.yml` builds
+`website/out` and publishes it through GitHub Pages on every push to `main`.
+
+For the root academic-homepage URL `https://HenryLab-XR.github.io/`, use a
+repository named `HenryLab-XR.github.io`. If this current `.github` repository is
+used instead, GitHub Pages serves it as a project page, usually under
+`https://HenryLab-XR.github.io/.github/`.
+
 ## Main Files
 
 - `app/page.tsx`: site content and structure

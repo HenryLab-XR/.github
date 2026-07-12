@@ -1,31 +1,31 @@
 const researchThemes = [
   {
     number: "01",
-    title: "XR Reliability & Testing",
+    title: "XR Reliability",
     description:
       "Automated scene exploration, interaction testing, performance analysis, and reproducible evaluation for VR, AR, and MR applications.",
-    methods: ["Model-based testing", "Performance analysis", "Repair"],
+    methods: ["Automated XR testing", "Performance analysis", "Reproducible evaluation"],
   },
   {
     number: "02",
     title: "XR Software Engineering",
     description:
       "Program analysis, LLM-assisted testing and repair, and developer tools for building and maintaining complex immersive software.",
-    methods: ["Program analysis", "LLM4SE", "Developer tools"],
+    methods: ["Program analysis", "LLM-assisted repair", "Developer tools"],
   },
   {
     number: "03",
-    title: "XR Security & Privacy",
+    title: "XR Security",
     description:
       "Security testing, privacy-risk analysis, side-channel studies, and ecosystem-scale measurement of XR applications and platforms.",
-    methods: ["Privacy analysis", "Side channels", "Measurement"],
+    methods: ["Security testing", "Privacy analysis", "Side channels"],
   },
   {
     number: "04",
     title: "Embodied AI",
     description:
-      "Exploring evaluation, robustness, safety, and dependable behavior for embodied agents operating across virtual and physical environments.",
-    methods: ["Emerging direction", "Evaluation", "Robustness"],
+      "Future-direction research on how embodied agents perceive, reason, and act in interactive 3D environments with robust, safe, and dependable behavior.",
+    methods: ["Future direction", "Evaluation", "Robustness"],
     emerging: true,
   },
 ];
@@ -40,11 +40,11 @@ const featuredProjects = [
     tags: ["XR Reliability", "Unity", "Automated Testing"],
     links: [
       {
-        label: "Read the paper",
+        label: "Paper",
         href: "https://doi.org/10.1109/ASE63991.2025.00047",
       },
       {
-        label: "View code",
+        label: "Code",
         href: "https://github.com/HenryLab-XR/VRExplorer",
       },
     ],
@@ -55,13 +55,13 @@ const featuredProjects = [
     subtitle: "LLM-assisted Performance Bug Repair",
     description:
       "A study and repair workflow for performance bugs in XR applications using large language models.",
-    tags: ["Performance", "Program Repair", "LLMs"],
+    tags: ["XR Software Engineering", "Performance", "LLMs"],
     links: [
       {
-        label: "Read the paper",
+        label: "Paper",
         href: "https://conf.researchr.org/details/icse-2026/icse-2026-research-track/78/XRFix-Exploring-Performance-Bug-Repair-of-Extended-Reality-Applications-with-Large-L",
       },
-      { label: "Explore artifact", href: "https://github.com/wwwjwww/XRFix" },
+      { label: "Artifact", href: "https://github.com/wwwjwww/XRFix" },
     ],
   },
   {
@@ -69,29 +69,33 @@ const featuredProjects = [
     title: "Meta-detector",
     subtitle: "Security & Privacy Analysis",
     description:
-      "Empirical analysis and detection tools for security and privacy risks in the Meta and Oculus VR ecosystem.",
+      "Empirical analysis and detection tools for security and privacy risks in the Meta/Oculus VR ecosystem.",
     tags: ["XR Security", "Privacy", "Empirical Study"],
     links: [
       {
-        label: "Read the TSE paper",
+        label: "ICSE paper",
+        href: "https://doi.org/10.1145/3597503.3639082",
+      },
+      {
+        label: "TSE paper",
         href: "https://doi.org/10.1109/TSE.2025.3553283",
       },
       {
-        label: "View code",
+        label: "Code",
         href: "https://github.com/Henrykwokkk/Meta-detector",
       },
     ],
   },
   {
-    kicker: "OPEN RESEARCH PROTOTYPE",
+    kicker: "RESEARCH PROTOTYPE",
     title: "VRAgent",
-    subtitle: "LLM-based Automated VR Testing",
+    subtitle: "Automated VR Testing Prototype",
     description:
-      "A research prototype combining Unity scene and dependency analysis, LLM-generated test plans, and automated execution for VR applications.",
+      "An open-source research prototype combining Unity scene and dependency analysis, LLM-generated test plans, and automated execution for VR applications.",
     tags: ["VR Testing", "LLM Agents", "Dependency Analysis"],
     links: [
       {
-        label: "Explore the project",
+        label: "Code",
         href: "https://github.com/HenryLab-XR/VRAgent",
       },
     ],
@@ -157,7 +161,7 @@ const members = [
     initials: "FH",
     name: "Fengliang He",
     role: "PhD Student · Hong Kong Baptist University",
-    interests: "AR/VR systems, mobile computing, and wireless networking.",
+    interests: "AR/VR systems, XR security, and sensing-driven immersive applications.",
     href: "https://fengliang2023.github.io/",
   },
   {
@@ -200,23 +204,23 @@ export default function Home() {
 
           <nav className="desktop-nav" aria-label="Primary navigation">
             <a href="#research">Research</a>
-            <a href="#projects">Projects</a>
+            <a href="#projects">Featured Work</a>
             <a href="#publications">Publications</a>
             <a href="#people">People</a>
           </nav>
 
           <a className="button button-small header-cta" href="#join">
-            Join the Lab
+            Join Us
           </a>
 
           <details className="mobile-menu">
             <summary>Menu</summary>
             <nav aria-label="Mobile navigation">
               <a href="#research">Research</a>
-              <a href="#projects">Projects</a>
+              <a href="#projects">Featured Work</a>
               <a href="#publications">Publications</a>
               <a href="#people">People</a>
-              <a href="#join">Join the Lab</a>
+              <a href="#join">Join Us</a>
             </nav>
           </details>
         </div>
@@ -226,21 +230,21 @@ export default function Home() {
         <section className="hero" id="top">
           <div className="hero-grid shell">
             <div className="hero-copy">
-              <p className="eyebrow">XR SOFTWARE ENGINEERING · RELIABILITY · SECURITY</p>
-              <h1>Engineering reliable, secure, and intelligent XR systems.</h1>
+              <p className="eyebrow">XR RELIABILITY · XR SOFTWARE ENGINEERING · XR SECURITY</p>
+              <h1>XR Reliability, Security, and Embodied AI.</h1>
               <p className="hero-lead">
-                HenryLab-XR advances extended reality through automated testing,
-                program analysis, software repair, and security and privacy
-                research. We are also exploring dependable software foundations
-                for embodied AI.
+                HenryLab-XR is a research group focused on eXtended Reality systems,
+                covering Virtual Reality, Augmented Reality, and Mixed Reality.
+                We develop methods, tools, and open artifacts for dependable
+                immersive software.
               </p>
               <p className="affiliation-line">
-                Connecting researchers at Hong Kong Baptist University, Sun
-                Yat-sen University, and industry research teams.
+                Our current directions are XR Reliability, XR Software Engineering,
+                and XR Security; our future direction is Embodied AI.
               </p>
               <div className="hero-actions">
                 <a className="button" href="#research">
-                  Explore Our Research
+                  Explore Research Themes
                 </a>
                 <a className="text-link" href="#join">
                   View Open Positions <span aria-hidden="true">→</span>
@@ -266,12 +270,12 @@ export default function Home() {
                 <small>DEPENDABLE SYSTEMS</small>
               </div>
               <span className="orbit-label label-reliability">Reliability</span>
-              <span className="orbit-label label-software">Software</span>
+              <span className="orbit-label label-software">Software Engineering</span>
               <span className="orbit-label label-security">Security</span>
               <span className="orbit-label label-embodied">Embodied AI</span>
               <div className="visual-caption">
                 <span aria-hidden="true">●</span>
-                A complete visual is ready even before the optional banner is added.
+                Dependable immersive software across VR, AR, and MR.
               </div>
             </div>
           </div>
@@ -281,12 +285,12 @@ export default function Home() {
           <div className="shell">
             <div className="section-heading split-heading">
               <div>
-                <p className="eyebrow">RESEARCH</p>
-                <h2>Making immersive systems dependable.</h2>
+                <p className="eyebrow">RESEARCH THEMES</p>
+                <h2>Three core XR directions and one future direction.</h2>
               </div>
               <p>
-                We study how XR systems fail—and build methods to test, secure,
-                diagnose, and repair them.
+                Our work draws on model-based testing, program analysis,
+                empirical studies, and large language models across these themes.
               </p>
             </div>
 
@@ -296,7 +300,7 @@ export default function Home() {
                   <div className="card-topline">
                     <span className="card-number">{theme.number}</span>
                     {theme.emerging ? (
-                      <span className="status-pill">Emerging Direction</span>
+                      <span className="status-pill">Future Direction</span>
                     ) : null}
                   </div>
                   <h3>{theme.title}</h3>
@@ -338,7 +342,7 @@ export default function Home() {
                   <div className="project-links">
                     {project.links.map((link) => (
                       <a key={link.href} href={link.href} {...externalProps}>
-                        {link.label} <span aria-hidden="true">↗</span>
+                        {link.label} <span aria-hidden="true">→</span>
                       </a>
                     ))}
                   </div>
@@ -352,17 +356,17 @@ export default function Home() {
           <div className="shell publications-layout">
             <div className="section-heading publications-intro">
               <p className="eyebrow">SELECTED PUBLICATIONS</p>
-              <h2>Recent work across software engineering and security.</h2>
+              <h2>Recent work across XR reliability, software engineering, and security.</h2>
               <p>
-                A concise selection of the group&apos;s work on XR testing, repair,
-                reliability, security, and privacy.
+                A concise selection of the group&apos;s work on XR testing,
+                repair, reliability, security, and privacy.
               </p>
               <a
                 className="text-link"
                 href="https://scholar.google.com/citations?user=20aqGSoAAAAJ&hl=en"
                 {...externalProps}
               >
-                View Google Scholar <span aria-hidden="true">↗</span>
+                View Google Scholar <span aria-hidden="true">→</span>
               </a>
             </div>
 
@@ -395,8 +399,8 @@ export default function Home() {
                 <h2>A cross-institution research team.</h2>
               </div>
               <p>
-                We connect software engineering, systems, security, and XR
-                expertise across academia and industry.
+                Our group brings together researchers affiliated with Hong Kong
+                Baptist University, Sun Yat-sen University, and industry research teams.
               </p>
             </div>
 
@@ -409,26 +413,24 @@ export default function Home() {
                   <p className="role-label">FACULTY LEAD</p>
                   <h3>Hong-Ning Dai</h3>
                   <p className="faculty-role">
-                    Associate Professor · Department of Computer Science · Hong
-                    Kong Baptist University
+                    Associate Professor · Department of Computer Science · Hong Kong Baptist University
                   </p>
                   <p>
-                    Research interests include extended reality, cyber-physical
-                    systems, the Internet of Things, and intelligent software
-                    systems.
+                    His XR-related research spans immersive systems, software
+                    reliability, security and privacy, and intelligent software systems.
                   </p>
                   <div className="faculty-links">
                     <a
                       href="https://www.comp.hkbu.edu.hk/v1/?id=henrydai&page=profile"
                       {...externalProps}
                     >
-                      Faculty page <span aria-hidden="true">↗</span>
+                      Faculty Page <span aria-hidden="true">→</span>
                     </a>
                     <a
                       href="https://scholar.google.com/citations?user=20aqGSoAAAAJ&hl=en"
                       {...externalProps}
                     >
-                      Google Scholar <span aria-hidden="true">↗</span>
+                      Google Scholar <span aria-hidden="true">→</span>
                     </a>
                   </div>
                 </div>
@@ -464,7 +466,7 @@ export default function Home() {
                   <p className="member-role">{member.role}</p>
                   <p>{member.interests}</p>
                   <a href={member.href} {...externalProps}>
-                    Visit homepage <span aria-hidden="true">↗</span>
+                    Homepage <span aria-hidden="true">→</span>
                   </a>
                 </article>
               ))}
@@ -475,13 +477,13 @@ export default function Home() {
         <section className="section join-section" id="join">
           <div className="shell join-card">
             <div>
-              <p className="eyebrow">JOIN HENRYLAB-XR</p>
-              <h2>Build dependable XR and embodied systems with us.</h2>
+              <p className="eyebrow">JOIN US</p>
+              <h2>Build dependable and intelligent immersive systems with us.</h2>
               <p>
                 We are recruiting PhD students, Research Assistants, and Visiting
-                Students interested in XR software engineering, reliability,
-                security and privacy, AI for software engineering, and emerging
-                embodied AI.
+                Students interested in XR software engineering, reliability and
+                testing, security and privacy, AI for software engineering, and
+                emerging embodied AI.
               </p>
               <div className="opportunity-list" aria-label="Open opportunities">
                 <span>PhD Students</span>
@@ -494,10 +496,10 @@ export default function Home() {
               <h3>What to send</h3>
               <ul>
                 <li>Your CV</li>
-                <li>A brief research-interest statement</li>
+                <li>A brief introduction to your research interests</li>
                 <li>Academic transcripts</li>
-                <li>Representative papers, projects, or code</li>
-                <li>Your intended position and preferred start date</li>
+                <li>Links to representative papers, projects, or code</li>
+                <li>The position you are interested in and your preferred start date</li>
               </ul>
               <a
                 className="button button-light"
@@ -519,21 +521,21 @@ export default function Home() {
               </span>
               <span>HenryLab-XR</span>
             </a>
-            <p>Engineering reliable, secure, and intelligent XR systems.</p>
+            <p>XR Reliability, Security, and Embodied AI.</p>
           </div>
           <div>
             <h2>Affiliations</h2>
             <a href="https://www.comp.hkbu.edu.hk/" {...externalProps}>
-              Hong Kong Baptist University <span aria-hidden="true">↗</span>
+              Hong Kong Baptist University <span aria-hidden="true">→</span>
             </a>
             <a href="https://www.sysu.edu.cn/sysuen/" {...externalProps}>
-              Sun Yat-sen University <span aria-hidden="true">↗</span>
+              Sun Yat-sen University <span aria-hidden="true">→</span>
             </a>
           </div>
           <div>
-            <h2>Connect</h2>
+            <h2>Contact</h2>
             <a href="https://github.com/HenryLab-XR" {...externalProps}>
-              GitHub Organization <span aria-hidden="true">↗</span>
+              HenryLab-XR on GitHub <span aria-hidden="true">→</span>
             </a>
             <a href="mailto:zhuzhy57@mail2.sysu.edu.cn">
               zhuzhy57@mail2.sysu.edu.cn
@@ -542,7 +544,7 @@ export default function Home() {
         </div>
         <div className="shell footer-bottom">
           <span>© 2026 HenryLab-XR</span>
-          <span>Last updated July 2026</span>
+          <span>Last updated: July 2026</span>
         </div>
       </footer>
     </>

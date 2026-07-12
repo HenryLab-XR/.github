@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "HenryLab-XR | Reliable, Secure, and Intelligent XR Systems",
+  title: "HenryLab-XR | XR Reliability, Security, and Embodied AI",
   description:
-    "HenryLab-XR researches XR software engineering, reliability, security and privacy, AI-assisted testing and repair, and emerging embodied AI.",
+    "HenryLab-XR is a research group focused on XR Reliability, XR Software Engineering, XR Security, and future-direction Embodied AI.",
   applicationName: "HenryLab-XR",
   keywords: [
     "extended reality",
@@ -17,15 +17,15 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     siteName: "HenryLab-XR",
-    title: "Engineering Reliable, Secure, and Intelligent XR Systems",
+    title: "HenryLab-XR | XR Reliability, Security, and Embodied AI",
     description:
-      "Researching XR software engineering, reliability, security and privacy, and emerging embodied AI.",
+      "Researching dependable immersive software across XR reliability, software engineering, security, and embodied AI.",
   },
   twitter: {
     card: "summary",
     title: "HenryLab-XR",
     description:
-      "Engineering reliable, secure, and intelligent XR systems.",
+      "XR Reliability, Security, and Embodied AI.",
   },
 };
 
