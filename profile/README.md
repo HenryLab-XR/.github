@@ -1,8 +1,8 @@
 # HenryLab-XR
 
-**Engineering Reliable, Secure, and Intelligent XR Systems.**
+**XR Reliability, Security, and Embodied AI.**
 
-HenryLab-XR is a research group working at the intersection of extended reality and software engineering. We develop methods, tools, and open artifacts to make XR systems more reliable, secure, and intelligent—from automated testing and program repair to privacy analysis and emerging embodied AI.
+HenryLab-XR is a research group focused on eXtended Reality (XR) systems, covering Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR). Our current research directions are **XR Reliability**, **XR Software Engineering**, and **XR Security**; our future direction is **Embodied AI**. We develop methods, tools, and open artifacts for dependable immersive software, from automated XR testing and program repair to security analysis and privacy-risk measurement.
 
 Our group brings together researchers affiliated with Hong Kong Baptist University, Sun Yat-sen University, and industry research teams.
 
@@ -12,7 +12,9 @@ Our group brings together researchers affiliated with Hong Kong Baptist Universi
 
 ## Research Themes
 
-### XR Reliability & Testing
+Our work is organized around three core XR directions and one future direction.
+
+### XR Reliability
 
 Automated scene exploration, interaction testing, performance analysis, and reproducible evaluation for VR, AR, and MR applications.
 
@@ -20,11 +22,11 @@ Automated scene exploration, interaction testing, performance analysis, and repr
 
 Program analysis, LLM-assisted testing and repair, and developer tools for building and maintaining complex immersive software.
 
-### XR Security & Privacy
+### XR Security
 
 Security testing, privacy-risk analysis, side-channel studies, and ecosystem-scale measurement of XR applications and platforms.
 
-### Embodied AI — Emerging Direction
+### Embodied AI — Future Direction
 
 We are exploring how embodied agents can perceive, reason, and act in interactive 3D environments, with an emphasis on evaluation, robustness, safety, and dependable behavior.
 
@@ -84,7 +86,7 @@ An open-source research prototype combining Unity scene and dependency analysis,
 
 #### Hong-Ning Dai
 
-Associate Professor, Department of Computer Science, Hong Kong Baptist University. His research spans extended reality, cyber-physical systems, the Internet of Things, and intelligent software systems.
+Associate Professor, Department of Computer Science, Hong Kong Baptist University. His XR-related research spans immersive systems, software reliability, security and privacy, and intelligent software systems.
 
 As of **11 July 2026**, his Google Scholar profile lists **30,667 citations**, an **h-index of 59**, and an **i10-index of 173**.
 
@@ -98,7 +100,7 @@ Researcher at Ant Group; PhD from Sun Yat-sen University. Research interests: AI
 
 #### Fengliang He
 
-PhD student at Hong Kong Baptist University. Research interests: AR/VR systems, mobile computing, and wireless networking. [Homepage](https://fengliang2023.github.io/)
+PhD student at Hong Kong Baptist University. Research interests: AR/VR systems, XR security, and sensing-driven immersive applications. [Homepage](https://fengliang2023.github.io/)
 
 #### Jingwen Wu
 
